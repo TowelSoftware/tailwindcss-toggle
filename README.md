@@ -4,7 +4,7 @@ An switch toggle for https://tailwindcss.com/
 Basic Html for an toggle switch
 
 
-[Preview](https://gyazo.com/73fc88fb978607444ce0f2579e1f05af)
+![Preview](https://i.gyazo.com/73fc88fb978607444ce0f2579e1f05af.png)
 
 ```html
 <div class="mb-2">                
