@@ -8,16 +8,15 @@
     <title>Tailwind Toggle Switch</title>
     
     <!-- Styles -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
     
 </head>
 <body>
 
-<div class="container mx-auto h-full flex justify-center items-center">
+<div class="container mx-auto h-full flex justify-center items-center pt-8">
     
-    <div class="lg:w-1/2">
-        <h1 class="font-hairline mb-6 text-center">Welcome to {{ config('app.name', 'Laravel') }}</h1>
+    <div class="lg:w-1/2 mt-8 h-1/2">
+        <h1 class="font-hairline mb-6 text-center">Tailwind Toggle Switch</h1>
         <div class="border-grey-light border-t bg-white p-8 m-6 rounded shadow-md">
             
             <form>
@@ -26,10 +25,18 @@
                         <input type="checkbox" name="1" id="1" class="form-switch-checkbox" />
                         <label class="form-switch-label" for="1"></label>
                     </div>
-                    <label class="text-xs text-grey-dark" for="1">Default</label>
+                    <label class="text-xs text-grey-dark" for="1">Default (off)</label>
                 </div>
                 
-                <div class="mb2">
+                <div class="mb-2">                
+                    <div class="form-switch inline-block align-middle">
+                        <input type="checkbox" name="1.1" id="1.1" class="form-switch-checkbox" checked/>
+                        <label class="form-switch-label" for="1.1"></label>
+                    </div>
+                    <label class="text-xs text-grey-dark" for="1.1">Default (on)</label>
+                </div>
+                
+                <div class="mb-2">
                     <div class="form-switch inline-block align-middle">
                         <input type="checkbox" name="2" id="2" class="form-switch-checkbox" />
                         <label class="form-switch-label bg-blue" for="2"></label>
@@ -37,12 +44,12 @@
                     <label class="text-xs text-grey-dark" for="2">Blue</label>
                 </div>
                 
-                <div class="mb2">
+                <div class="mb-2">
                     <div class="form-switch inline-block align-middle">
-                        <input type="checkbox" name="2" id="2" class="form-switch-checkbox" />
-                        <label class="form-switch-label bg-red" for="2"></label>
+                        <input type="checkbox" name="3" id="3" class="form-switch-checkbox" />
+                        <label class="form-switch-label bg-red" for="3"></label>
                     </div>
-                    <label class="text-xs text-grey-dark" for="2">red</label>
+                    <label class="text-xs text-grey-dark" for="3">Red</label>
                 </div>
                 
             </form>

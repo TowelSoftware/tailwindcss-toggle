@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Tailwind Toggle Switch</title>
+    
+    <!-- Styles -->
+    <link href="main.css" rel="stylesheet">
+    
+</head>
+<body>
+
+<div class="container mx-auto h-full flex justify-center items-center pt-8">
+    
+    <div class="lg:w-1/2 mt-8 h-1/2">
+        <h1 class="font-hairline mb-6 text-center">Tailwind Toggle Switch</h1>
+        <div class="border-grey-light border-t bg-white p-8 m-6 rounded shadow-md">
+            
+            <form>
+                <div class="mb-2">                
+                    <div class="form-switch inline-block align-middle">
+                        <input type="checkbox" name="1" id="1" class="form-switch-checkbox" />
+                        <label class="form-switch-label" for="1"></label>
+                    </div>
+                    <label class="text-xs text-grey-dark" for="1">Default (off)</label>
+                </div>
+                
+                <div class="mb-2">                
+                    <div class="form-switch inline-block align-middle">
+                        <input type="checkbox" name="1.1" id="1.1" class="form-switch-checkbox" checked/>
+                        <label class="form-switch-label" for="1.1"></label>
+                    </div>
+                    <label class="text-xs text-grey-dark" for="1.1">Default (on)</label>
+                </div>
+                
+                <div class="mb-2">
+                    <div class="form-switch inline-block align-middle">
+                        <input type="checkbox" name="2" id="2" class="form-switch-checkbox" />
+                        <label class="form-switch-label bg-blue" for="2"></label>
+                    </div>
+                    <label class="text-xs text-grey-dark" for="2">Blue</label>
+                </div>
+                
+                <div class="mb-2">
+                    <div class="form-switch inline-block align-middle">
+                        <input type="checkbox" name="3" id="3" class="form-switch-checkbox" />
+                        <label class="form-switch-label bg-red" for="3"></label>
+                    </div>
+                    <label class="text-xs text-grey-dark" for="3">Red</label>
+                </div>
+                
+            </form>
+            
+        </div>
+    </div>
+</div>
+<footer class="w-full px-8 pb-4 pin-b absolute text-center text-grey text-xs mt-8">By <a href="https://towel.dk" class="text-grey">Towel Software</a>.</footer>
+
+</body>
