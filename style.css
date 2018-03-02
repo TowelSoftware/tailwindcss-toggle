@@ -1,3 +1,5 @@
+@tailwind preflight;
+
 /* CHECKBOX TOGGLE SWITCH */
 .form-switch {
     @apply relative select-none w-12 mr-2 leading-normal;
@@ -27,3 +29,5 @@
 .form-switch-checkbox:checked + .form-switch-label:before {
     @apply pin-r;
 }
+
+@tailwind utilities;
