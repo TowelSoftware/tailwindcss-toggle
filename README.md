@@ -17,8 +17,8 @@ Basic Html for an toggle switch
 ```
 
 
-Moved most Tailwind classes in to an commonent since an toggle switch is going to be used more then one time.
-also sadly Tailwind don't have support for all css classes yet
+Moved most Tailwind classes in to an component since an toggle switch is going to be used more then one time.
+Also sadly Tailwind don't have support for all css classes yet
 
 
 ```css
