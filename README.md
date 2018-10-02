@@ -58,3 +58,24 @@ Also sadly Tailwind don't have support for all css classes yet
 
 ```
 
+## Using Tailwindcss-toggle as a single file component
+
+If you are going to use it in single file *.vue components checkout how it is implemented in the [TailwindToggle.vue](/TailwindToggle.vue) file.
+
+You would then go on to use it in your app like this.
+
+```html
+<div>
+    <AppToggle v-model="isToggleOn" onText="Hide Map" offText="Show Map"/>
+</div>
+<script>
+    import AppToggle from '@/components/AppToggle'
+    export default {
+        data () {
+            return {
+            isToggleOn: true
+            }
+        }
+    }
+</script>
+```
