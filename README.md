@@ -16,6 +16,19 @@ Basic Html for an toggle switch
 </div>
 ```
 
+## Installation
+
+You can install the package with yarn or npm:
+
+```bash
+yarn add TowelSoftware/tailwindcss-toggle
+```
+
+```bash
+npm install TowelSoftware/tailwindcss-toggle
+```
+
+## More Info
 
 Moved most Tailwind classes in to an component since an toggle switch is going to be used more then one time.
 Also sadly Tailwind don't have support for all css classes yet
